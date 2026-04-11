@@ -24,5 +24,9 @@
             </div>
         </div>
     </div>
- 
+  <!-- Main Navigation -->
+    <nav class="flex-1 py-4">
+        <div class="px-4 mb-2">
+            <p class="text-xs text-gray-400 uppercase tracking-wider font-semibold">Main Menu</p>
+        </div>
 </aside>
