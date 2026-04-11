@@ -13,5 +13,16 @@
                 <p class="text-xs text-gray-400">Version 1.0</p>
             </div>
         </div>
-    </div>    
+    </div>   
+    <!-- User Info -->
+    <div class="p-4 border-b border-gray-700">
+        <div class="flex items-center space-x-3">
+            <img src="https://ui-avatars.com/api/?name=Admin&background=3b82f6&color=fff&rounded=true&size=40" alt="Avatar" class="w-10 h-10 rounded-full">
+            <div>
+                <p class="font-semibold">Admin User</p>
+                <p class="text-xs text-gray-400">Super Administrator</p>
+            </div>
+        </div>
+    </div>
+ 
 </aside>
