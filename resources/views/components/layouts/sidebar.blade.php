@@ -1,4 +1,3 @@
-{{-- resources/views/components/layouts/sidebar.blade.php --}}
 <aside class="bg-gradient-to-b from-gray-900 to-gray-800 text-white w-72 min-h-screen flex-shrink-0 transition-all duration-300 shadow-xl">
     <!-- Logo / Brand -->
     <div class="p-5 border-b border-gray-700">
@@ -45,15 +44,6 @@
             <span>Users</span>
             <span class="ml-auto text-xs bg-blue-600 px-2 py-0.5 rounded-full">8</span>
         </a>
-        sidebar.blade.php
-
-
-   
-
-        
-
-        
-
         <!-- Products -->
         <a href="#" class="flex items-center px-4 py-3 mx-2 my-1 text-gray-300 rounded-lg hover:bg-gray-700 hover:text-white transition-all duration-200 group">
             <svg class="w-5 h-5 mr-3 text-gray-400 group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -61,7 +51,6 @@
             </svg>
             <span>Products</span>
         </a>
-
         <!-- Orders / Transactions -->
         <a href="#" class="flex items-center px-4 py-3 mx-2 my-1 text-gray-300 rounded-lg hover:bg-gray-700 hover:text-white transition-all duration-200 group">
             <svg class="w-5 h-5 mr-3 text-gray-400 group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -69,7 +58,6 @@
             </svg>
             <span>Transactions</span>
         </a>
-
         <!-- Reports -->
         <a href="#" class="flex items-center px-4 py-3 mx-2 my-1 text-gray-300 rounded-lg hover:bg-gray-700 hover:text-white transition-all duration-200 group">
             <svg class="w-5 h-5 mr-3 text-gray-400 group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -78,13 +66,11 @@
             <span>Reports</span>
         </a>
     </nav>
-
     <!-- Second Navigation -->
     <nav class="py-4 border-t border-gray-700">
         <div class="px-4 mb-2">
             <p class="text-xs text-gray-400 uppercase tracking-wider font-semibold">Settings</p>
         </div>
-
         <!-- Settings -->
         <a href="#" class="flex items-center px-4 py-3 mx-2 my-1 text-gray-300 rounded-lg hover:bg-gray-700 hover:text-white transition-all duration-200 group">
             <svg class="w-5 h-5 mr-3 text-gray-400 group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -93,7 +79,6 @@
             </svg>
             <span>Settings</span>
         </a>
-
         <!-- Profile -->
         <a href="#" class="flex items-center px-4 py-3 mx-2 my-1 text-gray-300 rounded-lg hover:bg-gray-700 hover:text-white transition-all duration-200 group">
             <svg class="w-5 h-5 mr-3 text-gray-400 group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -101,7 +86,6 @@
             </svg>
             <span>My Profile</span>
         </a>
-
         <!-- Logout -->
         <a href="#" class="flex items-center px-4 py-3 mx-2 my-1 text-red-400 rounded-lg hover:bg-red-900/30 hover:text-red-300 transition-all duration-200 group">
             <svg class="w-5 h-5 mr-3 text-red-400 group-hover:text-red-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -110,7 +94,6 @@
             <span>Logout</span>
         </a>
     </nav>
-
     <!-- Footer di Sidebar -->
     <div class="p-4 text-center text-xs text-gray-500 border-t border-gray-700 mt-auto">
         <p>© 2026 AdminPanel</p>
